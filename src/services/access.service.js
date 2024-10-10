@@ -2,7 +2,7 @@
 const { BadRequestError, NotFoundError, ForbiddenError } = require("../core/error.response");
 const bcrypt = require("bcrypt");
 const userModel = require("../models/user.model");
-const ApiKeyService = require("./apiKey.service");
+const ApiKeyService = require("./apikey.service");
 const jwt = require("jsonwebtoken");
 const crypto = require("crypto");
 const KeyTokenService = require("./keytoken.service");
